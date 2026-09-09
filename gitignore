@@ -1,0 +1,32 @@
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Data (never commit real inventor/patent data)
+*.csv
+*.parquet
+*.zip
+dataset_inventors_unique/
+dataset_diviso_anni_corrected/
+parquet_raw/
+checkpoints/
+checkpoints_master/
+
+# Caches and secrets
+*.pkl
+local_ethnea_cache.pkl
+ethnea_cache_backup.pkl
+.env
+*.env
+*credentials*
+
+# Logs
+*.log
+ethnea_s3_log.txt
+
+# OS / editor
+.DS_Store
+__pycache__/
+*.pyc
