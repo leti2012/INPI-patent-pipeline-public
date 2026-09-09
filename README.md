@@ -1,1 +1,0 @@
-# INPI-patent-pipeline-public
